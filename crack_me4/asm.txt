@@ -1,0 +1,15 @@
+SUB 	rsp,40
+XOR	ebx,ebx
+PUSH	ebx
+MOV 	rax,0x3378736830726521
+PUSH	rax
+MOV	rax,rsp
+PUSH	ebx
+PUSH	rax
+PUSH	rax
+PUSH	ebx
+MOV	rax,0x7FFB294DA0
+SHL	rax,18
+SHR	rax,10
+CALL	rax
+ADD	rsp,40
